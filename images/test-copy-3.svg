@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="160" height="160" viewBox="0 0 160 160">
+    <g fill="none" fill-rule="evenodd" stroke="#7A7A7A">
+        <g stroke-width="3">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M18 116h44.205a9 9 0 0 0 8.868-7.469l3.553-20.576a24 24 0 0 0-2.34-15.123l-.43-.832-13.173-30.198A13 13 0 0 0 46.767 34H18"/>
+            <path d="M59 116v6a3 3 0 0 0 3 3h12a3 3 0 0 0 3-3V99a3 3 0 0 0-3-3h-1"/>
+            <path stroke-linecap="round" stroke-linejoin="round" d="M58 64H9M66 58h5.699c2.797 0 5.525.874 7.801 2.5a2.315 2.315 0 0 1-.514 4.044L70 68M15 106h25l10-10H18M60 73h-2.054A12.094 12.094 0 0 0 47.5 79l-.868 1.488A3 3 0 0 0 49.223 85H55M52 106h6.261a7 7 0 0 0 6.864-5.627L66 96h-9M32 87H19M38 80H19"/>
+        </g>
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M132 125.09l2-17 13.817-13.817a6 6 0 0 0 1.675-5.229l-3.573-21.44a5.509 5.509 0 0 0-6.419-4.514l-.672.122a20 20 0 0 0-8.701 3.89L125 71.09l-9 1-1-2-5 1 2 7h15l6-4 4 16-9.115 11.85a5 5 0 0 0-1.016 2.595L125 125.09M141.462 56.89A7.98 7.98 0 0 0 142 54v-2a8 8 0 1 0-16 0v2a7.995 7.995 0 0 0 3.841 6.836M143 126l-3-16M149 126l-3-17 2-8"/>
+        <path stroke-dasharray="5" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M102 68H85"/>
+        <path stroke-width="3" d="M116 68h-10"/>
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M116 79v8h-10v-6l4-9"/>
+        <path stroke-dasharray="5" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M103.722 73L89 81.5M103.722 63L89 55"/>
+    </g>
+</svg>
