@@ -8,6 +8,10 @@ body {
 	width: 100%;
 }
 
+.mb-5{
+	margin-bottom: 5px;
+}
+
 @font-face {
 	font-family: supermolot-regular;
 	src: url(fonts/supermolot-regular.ttf) format('truetype');
@@ -1091,8 +1095,7 @@ body {
 	color: rgba(255, 255, 255, 0.8);
 	font-size: 0.85vw;
 	font-family: roboto-regular;
-	line-height: 1.3vw;
-	margin-bottom: 0.9vw;
+	margin-bottom: 5px;
 	display: block;
 }
 .text-color-blue {
