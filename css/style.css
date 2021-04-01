@@ -224,7 +224,7 @@ body {
 	position: relative;
 	width: 100%;
 	height: 100vh;
-	background: rgba(12, 13, 19, 0.4);
+	background: rgba(12, 13, 19, 0.6);
 }
 .header-content {
 	position: fixed;
@@ -719,7 +719,7 @@ body {
 .box-left-text-right-image__img {
 	width: 100%;
 	height: auto;
-	transform: scale(1.6);
+	transform: scale(1.2);
 }
 .align-content {
 	display: -webkit-box;
