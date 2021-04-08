@@ -82,7 +82,7 @@ function sliderbulets() {
 				$number = ui.value;
 				if ($number == 1) {
 					$('.name-range').html('CR 40');
-					$('.tonirovka-back').css('opacity', '0.39');
+					$('.tonirovka-back').css('opacity', '0.4');
 					$('.name-tonirovka-form').html('CR 40');
 					$('#name-tonirovka').val('CR 40');
 					$('.range-text').html(
@@ -109,7 +109,7 @@ function sliderbulets() {
 				}
 				if ($number == 4) {
 					$('.name-range').html('CR 70');
-					$('.tonirovka-back').css('opacity', '0.69');
+					$('.tonirovka-back').css('opacity', '0.7');
 					$('.name-tonirovka-form').html('CR 70');
 					$('#name-tonirovka').val('CR 70');
 					$('.range-text').html(
@@ -118,7 +118,7 @@ function sliderbulets() {
 				}
 				if ($number == 5) {
 					$('.name-range').html('CR 90');
-					$('.tonirovka-back').css('opacity', '0.86');
+					$('.tonirovka-back').css('opacity', '1');
 					$('.name-tonirovka-form').html('CR 90');
 					$('#name-tonirovka').val('CR 90');
 					$('.range-text').html(
