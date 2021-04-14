@@ -3357,6 +3357,8 @@ ul.tabs li.active {
   margin: 0 0 0 -2vw;
   opacity: 0.48;
   transition: all 0.3s;
+  text-align: center;
+  display: inline-block
 }
 #slider:before {
   content: "";
@@ -10352,4 +10354,15 @@ button.swiper-pagination-bullet {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.ppf-info-box {
+  padding: 10px
+}
+
+.ppf-info {
+  font-family: supermolot-Italic;
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 1vw;
+  line-height: 1.4vw;
 }
