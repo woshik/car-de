@@ -3026,12 +3026,11 @@ ul.tabs li.active {
   background: #3d95ee;
   color: #fff;
   border: initial;
-  padding: 1.1vw 1.5vw 0.9vw;
+  padding: 15px 0;
   font-size: 0.85vw;
   text-transform: uppercase;
   font-family: supermolot-regular;
   text-align: center;
-  width: 21vw;
   margin: 2vw auto 0;
   display: block;
 }
@@ -3273,13 +3272,13 @@ ul.tabs li.active {
   position: relative;
   z-index: 1;
   padding: 2vw;
-  margin-top: 2vw;
 }
 .range-modal-form-btn {
   background: #3d95ee;
   cursor: pointer;
-  width: 100%;
   margin: 0;
+  display: inline-block;
+  width: 100%;
 }
 .tonirovka-name {
   font-family: supermolot-bold-Italic;
@@ -3287,13 +3286,16 @@ ul.tabs li.active {
   color: #fff;
   text-transform: uppercase;
 }
-.range-text {
-  display: table;
-}
+
 .row-3-range {
   float: left;
-  width: 30%;
-  padding: 1.5vw 3.33% 1.5vw 0;
+  padding: 15px;
+}
+.row-3-range:first-child {
+  padding-left: 0;
+}
+.row-3-range:last-child {
+  padding-right: 0;
 }
 .number-range {
   font-family: supermolot-bold-Italic;
@@ -3349,7 +3351,7 @@ ul.tabs li.active {
 }
 .name-slider-range-col i {
   font-family: supermolot-bold-Italic;
-  font-size: 1.5vw;
+  font-size: 1.2vw;
   color: #3d95ee;
   text-transform: uppercase;
   margin: 0 0 0 -2vw;
@@ -5296,8 +5298,7 @@ ul.tabs li.active {
     background-color: #1f212a;
     position: relative;
     z-index: 1;
-    padding: 20px 20px 1px;
-    margin-top: 20px;
+    padding: 20px;
   }
   .tonirovka-name {
     font-size: 20px;
@@ -5305,8 +5306,7 @@ ul.tabs li.active {
   }
   .row-3-range {
     float: left;
-    width: 30%;
-    padding: 20px 16px 20px 0;
+    padding: 15px;
   }
   .number-range {
     font-size: 16px;
@@ -5324,15 +5324,6 @@ ul.tabs li.active {
     position: absolute;
     bottom: 10px;
     width: calc(100% - 40px);
-  }
-  .blue-btn-form {
-    padding: 16px 20px;
-    font-size: 14px;
-    margin: 20px 0;
-    display: block;
-    position: relative;
-    bottom: 10px;
-    width: 100%;
   }
   #slider:before {
     content: "";

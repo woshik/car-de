@@ -86,7 +86,24 @@ function sliderbulets() {
 					$('.name-tonirovka-form').html('CR 40');
 					$('#name-tonirovka').val('CR 40');
 					$('.range-text').html(
-						"<div class='row-3-range'><i class='number-range'>39%</i><p class='p-rang'>Пропускаемость света</p></div> <div class='row-3-range'><i class='number-range'>60%</i><br><p class='p-rang'>Отражает солнечную энергию</p></div> <div class='row-3-range'><i class='number-range'>97%</i><br><p class='p-rang'>Отражает УФ-лучи</p></div>"
+						`<div class="row-3-range">
+							<i class="number-range">0%</i><br />
+							<p class="p-rang">
+								Hitzeschutz
+							</p>
+						</div>
+						<div class="row-3-range">
+							<i class="number-range">0%</i><br />
+							<p class="p-rang">
+								UV Schutz
+							</p>
+						</div>
+						<div class="row-3-range">
+							<i class="number-range">0%</i><br />
+							<p class="p-rang">
+								Blendschutz
+							</p>
+						</div>`
 					);
 				}
 				if ($number == 2) {
@@ -95,7 +112,24 @@ function sliderbulets() {
 					$('.name-tonirovka-form').html('CR 50');
 					$('#name-tonirovka').val('CR 50');
 					$('.range-text').html(
-						"<div class='row-3-range'><i class='number-range'>50%</i><p class='p-rang'>Пропускаемость света</p></div> <div class='row-3-range'><i class='number-range'>56%</i><br><p class='p-rang'>Отражает солнечную энергию</p></div> <div class='row-3-range'><i class='number-range'>97%</i><br><p class='p-rang'>Отражает УФ-лучи</p></div>"
+						`<div class="row-3-range">
+							<i class="number-range">0%</i><br />
+							<p class="p-rang">
+								Hitzeschutz
+							</p>
+						</div>
+						<div class="row-3-range">
+							<i class="number-range">0%</i><br />
+							<p class="p-rang">
+								UV Schutz
+							</p>
+						</div>
+						<div class="row-3-range">
+							<i class="number-range">0%</i><br />
+							<p class="p-rang">
+								Blendschutz
+							</p>
+						</div>`
 					);
 				}
 				if ($number == 3) {
@@ -104,7 +138,24 @@ function sliderbulets() {
 					$('.name-tonirovka-form').html('CR 60');
 					$('#name-tonirovka').val('CR 60');
 					$('.range-text').html(
-						"<div class='row-3-range'><i class='number-range'>60%</i><p class='p-rang'>Пропускаемость света</p></div> <div class='row-3-range'><i class='number-range'>53%</i><br><p class='p-rang'>Отражает солнечную энергию</p></div> <div class='row-3-range'><i class='number-range'>97%</i><br><p class='p-rang'>Отражает УФ-лучи</p></div>"
+						`<div class="row-3-range">
+							<i class="number-range">0%</i><br />
+							<p class="p-rang">
+								Hitzeschutz
+							</p>
+						</div>
+						<div class="row-3-range">
+							<i class="number-range">0%</i><br />
+							<p class="p-rang">
+								UV Schutz
+							</p>
+						</div>
+						<div class="row-3-range">
+							<i class="number-range">0%</i><br />
+							<p class="p-rang">
+								Blendschutz
+							</p>
+						</div>`
 					);
 				}
 				if ($number == 4) {
@@ -113,7 +164,24 @@ function sliderbulets() {
 					$('.name-tonirovka-form').html('CR 70');
 					$('#name-tonirovka').val('CR 70');
 					$('.range-text').html(
-						"<div class='row-3-range'><i class='number-range'>69%</i><p class='p-rang'>Пропускаемость света</p></div> <div class='row-3-range'><i class='number-range'>50%</i><br><p class='p-rang'>Отражает солнечную энергию</p></div> <div class='row-3-range'><i class='number-range'>97%</i><br><p class='p-rang'>Отражает УФ-лучи</p></div>"
+						`<div class="row-3-range">
+							<i class="number-range">0%</i><br />
+							<p class="p-rang">
+								Hitzeschutz
+							</p>
+						</div>
+						<div class="row-3-range">
+							<i class="number-range">0%</i><br />
+							<p class="p-rang">
+								UV Schutz
+							</p>
+						</div>
+						<div class="row-3-range">
+							<i class="number-range">0%</i><br />
+							<p class="p-rang">
+								Blendschutz
+							</p>
+						</div>`
 					);
 				}
 				if ($number == 5) {
@@ -122,7 +190,24 @@ function sliderbulets() {
 					$('.name-tonirovka-form').html('CR 90');
 					$('#name-tonirovka').val('CR 90');
 					$('.range-text').html(
-						"<div class='row-3-range'><i class='number-range'>86%</i><p class='p-rang'>Пропускаемость света</p></div> <div class='row-3-range'><i class='number-range'>34%</i><br><p class='p-rang'>Отражает солнечную энергию</p></div> <div class='row-3-range'><i class='number-range'>90%</i><br><p class='p-rang'>Отражает УФ-лучи</p></div>"
+						`<div class="row-3-range">
+							<i class="number-range">0%</i><br />
+							<p class="p-rang">
+								Hitzeschutz
+							</p>
+						</div>
+						<div class="row-3-range">
+							<i class="number-range">0%</i><br />
+							<p class="p-rang">
+								UV Schutz
+							</p>
+						</div>
+						<div class="row-3-range">
+							<i class="number-range">0%</i><br />
+							<p class="p-rang">
+								Blendschutz
+							</p>
+						</div>`
 					);
 				}
 			},
@@ -140,13 +225,13 @@ function sliderbulets() {
 			}
 		});
 
-	$('.number-col-slider-' + 1 + '').html('<i>CR 40</i>');
-	$('.number-col-slider-' + 2 + '').html('<i>CR 50</i>');
-	$('.number-col-slider-' + 3 + '').html('<i>CR 60</i>');
-	$('.number-col-slider-' + 4 + '').html('<i>CR 70</i>');
-	$('.number-col-slider-' + 5 + '').html('<i>CR 90</i>');
+	$('.number-col-slider-' + 1 + '').html('<i>ohne Folie</i>');
+	$('.number-col-slider-' + 2 + '').html('<i>NR 14</i>');
+	$('.number-col-slider-' + 3 + '').html('<i>NR 04</i>');
+	$('.number-col-slider-' + 4 + '').html('<i>HP 15</i>');
+	$('.number-col-slider-' + 5 + '').html('<i>HP 05</i>');
 
-	$('#name-tonirovka').val('CR 40');
+	$('#name-tonirovka').val('ohne Folie');
 }
 sliderbulets();
 
