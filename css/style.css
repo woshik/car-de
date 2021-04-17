@@ -3027,7 +3027,7 @@ ul.tabs li.active {
   color: #fff;
   border: initial;
   padding: 15px 0;
-  font-size: 0.85vw;
+  font-size: 1rem;
   text-transform: uppercase;
   font-family: supermolot-regular;
   text-align: center;
@@ -3271,12 +3271,18 @@ ul.tabs li.active {
   background-color: #1f212a;
   position: relative;
   z-index: 1;
-  padding: 2vw;
+  padding: 30px;
+  width: 35rem;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 .range-modal-form-btn {
   background: #3d95ee;
   cursor: pointer;
-  margin: 0;
+  margin: 20px 0 0 0;
   display: inline-block;
   width: 100%;
 }
@@ -5301,6 +5307,7 @@ ul.tabs li.active {
     position: relative;
     z-index: 1;
     padding: 20px;
+    width: 20rem;
   }
   .tonirovka-name {
     font-size: 20px;
@@ -6101,6 +6108,10 @@ ul.tabs li.active {
   }
 }
 @media (max-width: 500px) {
+  .tonirovka-info-box{
+    padding: 10px;
+  }
+
   .right-menu-box {
     position: relative;
     right: initial;
@@ -6151,11 +6162,7 @@ ul.tabs li.active {
     width: 50%;
     margin: 0 0 20px;
   }
-  .row-3-range {
-    float: left;
-    width: 100%;
-    padding: 10px 0;
-  }
+
   .service-box.row-3 {
     width: calc(100% - 20px);
     margin: 0 0 30px;

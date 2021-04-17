@@ -81,10 +81,8 @@ function sliderbulets() {
 			slide: function (event, ui) {
 				$number = ui.value;
 				if ($number == 1) {
-					$('.name-range').html('CR 40');
+					$('.tonirovka-name').html('WERKSTÖNUNG');
 					$('.tonirovka-back').css('opacity', '0.4');
-					$('.name-tonirovka-form').html('CR 40');
-					$('#name-tonirovka').val('CR 40');
 					$('.range-text').html(
 						`<div class="row-3-range">
 							<i class="number-range">0%</i><br />
@@ -107,25 +105,23 @@ function sliderbulets() {
 					);
 				}
 				if ($number == 2) {
-					$('.name-range').html('CR 50');
+					$('.tonirovka-name').html('Black Glas - NERO 14');
 					$('.tonirovka-back').css('opacity', '0.5');
-					$('.name-tonirovka-form').html('CR 50');
-					$('#name-tonirovka').val('CR 50');
 					$('.range-text').html(
 						`<div class="row-3-range">
-							<i class="number-range">0%</i><br />
+							<i class="number-range">75%</i><br />
 							<p class="p-rang">
 								Hitzeschutz
 							</p>
 						</div>
 						<div class="row-3-range">
-							<i class="number-range">0%</i><br />
+							<i class="number-range">99%</i><br />
 							<p class="p-rang">
 								UV Schutz
 							</p>
 						</div>
 						<div class="row-3-range">
-							<i class="number-range">0%</i><br />
+							<i class="number-range">86%</i><br />
 							<p class="p-rang">
 								Blendschutz
 							</p>
@@ -133,25 +129,23 @@ function sliderbulets() {
 					);
 				}
 				if ($number == 3) {
-					$('.name-range').html('CR 60');
+					$('.tonirovka-name').html('Black Glass - NERO 04');
 					$('.tonirovka-back').css('opacity', '0.6');
-					$('.name-tonirovka-form').html('CR 60');
-					$('#name-tonirovka').val('CR 60');
 					$('.range-text').html(
 						`<div class="row-3-range">
-							<i class="number-range">0%</i><br />
+							<i class="number-range">85%</i><br />
 							<p class="p-rang">
 								Hitzeschutz
 							</p>
 						</div>
 						<div class="row-3-range">
-							<i class="number-range">0%</i><br />
+							<i class="number-range">99%</i><br />
 							<p class="p-rang">
 								UV Schutz
 							</p>
 						</div>
 						<div class="row-3-range">
-							<i class="number-range">0%</i><br />
+							<i class="number-range">96%</i><br />
 							<p class="p-rang">
 								Blendschutz
 							</p>
@@ -159,25 +153,23 @@ function sliderbulets() {
 					);
 				}
 				if ($number == 4) {
-					$('.name-range').html('CR 70');
+					$('.tonirovka-name').html('Black Glass - HP Nero 15');
 					$('.tonirovka-back').css('opacity', '0.7');
-					$('.name-tonirovka-form').html('CR 70');
-					$('#name-tonirovka').val('CR 70');
 					$('.range-text').html(
 						`<div class="row-3-range">
-							<i class="number-range">0%</i><br />
+							<i class="number-range">99%</i><br />
 							<p class="p-rang">
 								Hitzeschutz
 							</p>
 						</div>
 						<div class="row-3-range">
-							<i class="number-range">0%</i><br />
+							<i class="number-range">99%</i><br />
 							<p class="p-rang">
 								UV Schutz
 							</p>
 						</div>
 						<div class="row-3-range">
-							<i class="number-range">0%</i><br />
+							<i class="number-range">85%</i><br />
 							<p class="p-rang">
 								Blendschutz
 							</p>
@@ -185,25 +177,23 @@ function sliderbulets() {
 					);
 				}
 				if ($number == 5) {
-					$('.name-range').html('CR 90');
+					$('.tonirovka-name').html('Black Glass - HP 05');
 					$('.tonirovka-back').css('opacity', '1');
-					$('.name-tonirovka-form').html('CR 90');
-					$('#name-tonirovka').val('CR 90');
 					$('.range-text').html(
 						`<div class="row-3-range">
-							<i class="number-range">0%</i><br />
+							<i class="number-range">99%</i><br />
 							<p class="p-rang">
 								Hitzeschutz
 							</p>
 						</div>
 						<div class="row-3-range">
-							<i class="number-range">0%</i><br />
+							<i class="number-range">99%</i><br />
 							<p class="p-rang">
 								UV Schutz
 							</p>
 						</div>
 						<div class="row-3-range">
-							<i class="number-range">0%</i><br />
+							<i class="number-range">95%</i><br />
 							<p class="p-rang">
 								Blendschutz
 							</p>
@@ -230,33 +220,5 @@ function sliderbulets() {
 	$('.number-col-slider-' + 3 + '').html('<i>NR 04</i>');
 	$('.number-col-slider-' + 4 + '').html('<i>HP 15</i>');
 	$('.number-col-slider-' + 5 + '').html('<i>HP 05</i>');
-
-	$('#name-tonirovka').val('ohne Folie');
 }
 sliderbulets();
-
-function slidersec() {
-	$('#slidersec')
-		.slider({
-			value: 1,
-			min: 1,
-			max: 3,
-			step: 1,
-			slide: function (event, ui) {
-				$number = ui.value;
-			},
-		})
-		.each(function () {
-			var opt = $(this).data().uiSlider.options;
-			var vals = opt.max - opt.min;
-			for (var i = 0; i <= vals; i++) {
-				var el = $(
-					'<div class="name-slider-range-col number-col-slidersec-' +
-						(i + 1) +
-						'">1</div>'
-				).css('left', (i / vals) * 100 + '%');
-				$('#slidersec').append(el);
-			}
-		});
-}
-slidersec();
