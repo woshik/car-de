@@ -328,7 +328,7 @@ body {
   background-repeat: no-repeat;
 }
 .service-1-bg {
-  background-image: url("../images/services-2.jpg");
+  background-image: url("../assets/bg-images/car-wrapping.png");
   background-repeat: no-repeat;
 }
 .service-2-bg {
@@ -4755,7 +4755,6 @@ ul.tabs li.active {
     background-attachment: initial !important;
   }
   .home .header-content {
-    background: url(../assets/bg-images/home.jpg) !important;
     background-size: cover !important;
     background-repeat: no-repeat !important;
     background-position: center !important;
