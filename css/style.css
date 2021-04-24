@@ -1181,6 +1181,7 @@ body {
   height: 3vw;
   width: 80%;
   margin: 0 auto;
+  font-weight: bolder;
 }
 .info-icon {
   width: 9vw;
@@ -4853,6 +4854,7 @@ ul.tabs li.active {
     line-height: initial;
     width: calc(100% - 40px);
     margin: 20px auto 30px;
+    font-weight: bolder;
   }
   .sup-light br {
     display: none;
@@ -10371,4 +10373,24 @@ button.swiper-pagination-bullet {
   color: rgba(255, 255, 255, 0.8);
   font-size: 24px;
   line-height: 32px;
+}
+
+.custom-button-style {
+  width: 100%;
+  color: #fff;
+  background-color: #1B4268;
+  font-weight: bolder;
+  font-size: 28px;
+  text-transform: none;
+  box-sizing: border-box;
+}
+
+.quote-block {
+  text-align: center;
+  margin: 30px 0;
+}
+.car-wrapping-quote {
+  color: #ffaa00;
+  font-size: 1.6rem;
+
 }
