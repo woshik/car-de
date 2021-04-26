@@ -10392,5 +10392,14 @@ button.swiper-pagination-bullet {
 .car-wrapping-quote {
   color: #ffaa00;
   font-size: 1.6rem;
+}
 
+#myVideo {
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  min-width: 100%; 
+  min-height: 100%;
 }
