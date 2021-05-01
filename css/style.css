@@ -10402,3 +10402,17 @@ button.swiper-pagination-bullet {
   top: 0;
   left: 0;
 }
+
+.box-icon-top-text {
+  height: unset
+}
+
+.box-icon-custom-style {
+  margin: 0px auto 0px;
+  width: 35%;
+}
+
+.box-icon-custom {
+  color: #ffaa00;
+  font-size: 1rem;
+}
