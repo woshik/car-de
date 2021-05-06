@@ -238,6 +238,7 @@ body {
   height: auto;
   position: relative;
   background: #0c0d13;
+  padding: 100px 0;
 }
 .gradient-header-top {
   width: 100%;
@@ -528,7 +529,7 @@ body {
   width: 100%;
   height: auto;
   position: relative;
-  padding: 8vw 0;
+  padding: 0;
   z-index: 4;
 }
 .services-link {
@@ -915,11 +916,8 @@ body {
 .slider-single-page .video-slide:after {
   display: none !important;
 }
-.section-main-page-7 {
-  padding-top: 16vw;
-}
 .row-form-box {
-  height: 36vw;
+  float: left;
 }
 .row-form-box .zag {
   max-width: 30vw;
@@ -936,7 +934,7 @@ body {
 }
 .row-form-box:nth-child(2) {
   width: calc(60% - 40px);
-  float: left;
+  float: right;
   z-index: 10;
   position: relative;
 }
@@ -1147,7 +1145,7 @@ body {
   float: left;
 }
 .section-deteiling-page-1 {
-  padding: 2vw 0 8vw;
+
 }
 .row-form-box .wpcf7-mail-sent-ok {
   border: initial !important;
@@ -1231,7 +1229,6 @@ body {
   height: auto;
 }
 .section-main-page-1 {
-  padding: 5vw 0;
   position: relative;
 }
 .box-left-image-right-text .zag {
@@ -1342,8 +1339,8 @@ body {
   color: #fff;
 }
 .section-main-page-7 .box-left-text-right-image__img {
-  padding-top: 0;
-  margin-top: -2vw;
+  padding: 0;
+  margin: 0;
 }
 .box-left-image-right-text ul {
   padding-left: 0;
@@ -2934,8 +2931,6 @@ div.wpcf7-mail-sent-ok {
   position: relative;
   width: 100%;
   height: auto;
-  padding-top: 5vw;
-  padding-bottom: 5vw;
 }
 .section-main-garant .zag {
   text-align: center;
@@ -10415,4 +10410,33 @@ button.swiper-pagination-bullet {
 .box-icon-custom {
   color: #ffaa00;
   font-size: 1rem;
+}
+
+.custom-slider-style {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.slick-slider .slick-track {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.slick-initialized .slick-slide {
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+}
+
+.slick-slider img {
+  width: 40%;
+}
+
+.contact-form-box {
+  float: left;
+}
+
+.site-footer {
+  padding-bottom: 0;
 }
