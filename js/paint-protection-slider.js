@@ -84,39 +84,48 @@ function sliderbulets() {
 					$('.tonirovka-fon').attr('src', './assets/slider/ppf-1.png');
 					$('#name-tonirovka').val('CR 40');
 					$('.range-text').html(
-						`<p class="ppf-info"> - Komplettfolierung</p>
-						 <p class="ppf-info"> - nach Besprechung</p>`
+						`
+						<p class="ppf-info"> - Motorhaube</p>
+						<p class="ppf-info"> - Stossstange vorne</p>
+						<p class="ppf-info"> - Spiegelkappen</p>
+						`
 					);
 				}
 				if ($number == 2) {
 					$('.tonirovka-fon').attr('src', './assets/slider/ppf-2.png');
 					$('#name-tonirovka').val('CR 50');
 					$('.range-text').html(
-						`<p class="ppf-info"> - Motorhaube</p>
-						 <p class="ppf-info"> - Stossstange vorne</p>
-						 <p class="ppf-info"> - Spiegelkappen</p>`
+						`
+						<p class="ppf-info"> - Motorhaube</p>
+						<p class="ppf-info"> - Stossstange vorne</p>
+						<p class="ppf-info"> - Spiegelkappen</p>
+						<p class="ppf-info"> - Kotflugel</p>
+						`
 					);
 				}
 				if ($number == 3) {
-					$('.tonirovka-fon').attr('src', './assets/slider/ppf-1.png');
+					$('.tonirovka-fon').attr('src', './assets/slider/ppf-3.png');
 					$('#name-tonirovka').val('CR 60');
 					$('.range-text').html(
-						`<p class="ppf-info"> - Motorhaube</p>
-						 <p class="ppf-info"> - Stossstange vorne</p>
-						 <p class="ppf-info"> - Spiegelkappen</p>
-						 <p class="ppf-info"> - Kotflugel</p>`
-					);
-				}
-				if ($number == 4) {
-					$('.tonirovka-fon').attr('src', './assets/slider/ppf-3.png');
-					$('#name-tonirovka').val('CR 70');
-					$('.range-text').html(
-						`<p class="ppf-info"> - Motorhaube</p>
+						`
+						<p class="ppf-info"> - Motorhaube</p>
 						<p class="ppf-info"> - Stossstange vorne</p>
 						<p class="ppf-info"> - Spiegelkappen</p>
 						<p class="ppf-info"> - Kotflugel</p>
 						<p class="ppf-info"> - A Pillar</p>
-						<p class="ppf-info"> - vorder Dachfront</p>`
+						<p class="ppf-info"> - vorder Dachfront</p>
+						`
+					);
+				}
+				if ($number == 4) {
+					$('.tonirovka-fon').attr('src', './assets/slider/ppf-4.png');
+					$('#name-tonirovka').val('CR 70');
+					$('.range-text').html(
+						`
+						<p class="ppf-info"> - Komplettfolierung</p>
+						<p class="ppf-info"> - nach Besprechung</p>
+						
+						`
 					);
 				}
 			},
