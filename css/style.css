@@ -238,7 +238,7 @@ body {
   height: auto;
   position: relative;
   background: #0c0d13;
-  padding: 100px 0;
+  padding: 180px 0;
 }
 .gradient-header-top {
   width: 100%;
@@ -523,7 +523,6 @@ body {
   width: 100%;
   height: auto;
   display: table;
-  padding: 5vw 0;
 }
 .section-gallery-slider {
   width: 100%;
@@ -3312,7 +3311,6 @@ ul.tabs li.active {
   line-height: 1.4vw;
 }
 .section-range-tonirovka {
-  padding: 0 0 8vw;
   z-index: 10;
 }
 .ui-slider-handle {
@@ -4943,7 +4941,6 @@ ul.tabs li.active {
   }
   .box-left-text-right-image {
     width: calc(100% - 40px);
-    padding: 20px;
   }
   .row-form-box:nth-child(2) {
     width: calc(100% - 40px);
@@ -10439,9 +10436,16 @@ button.swiper-pagination-bullet {
 
 .site-footer {
   padding-bottom: 0;
+  padding-top: 60px;
 }
 
 .no-height {
   height: 0;
   min-height: 25px;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
 }
