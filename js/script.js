@@ -36,4 +36,11 @@ $(document).ready(function () {
 		$(".burger-mobile-menu").toggleClass("close-mob-menu");
 	});
 	
+	$('.close-modal').click(function () {
+		$('#contact-modal').toggleClass('active-modal')
+	})
 });
+
+function openContactModal() {
+	$('#contact-modal').toggleClass('active-modal')
+}

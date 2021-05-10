@@ -146,8 +146,9 @@
                               eine „ Box with Style“ zusammengestellt, die Sie kostenlose
                               bei uns bestellen können.</p>
 
-                           <button class="nice-btn plenka-modal-decor-btn custom-button-style"
-                              style="padding: 10px 3.3vw;"><img width="100%" src="./assets/extra/button.png" /></button>
+                           <button onclick="openContactModal()" class="nice-btn plenka-modal-decor-btn custom-button-style" style="padding: 5px 0">
+                              <img width="60%" src="./assets/extra/button.png" />
+                           </button>
                         </span>
                      </div>
                   </div>
@@ -177,8 +178,9 @@
                            </p>
 
 
-                           <button class="nice-btn plenka-modal-protection-btn custom-button-style">Jetzt Termin
-                              vereinbaren</button>
+                           <button onclick="openContactModal()" class="nice-btn plenka-modal-protection-btn custom-button-style">
+                              Jetzt Termin vereinbaren
+                           </button>
                         </span>
                      </div>
                   </div>
@@ -259,9 +261,9 @@
                               unsere Design auf den Computern zeichnen, die wir dann auf Folie mit Latexdruck
                               umsetzen können.</p>
                            <p>Wir haben somit die Möglkeit nicht nur ihre Farbe zu wechseln sondern können ihre.</p>
-                           <a href="/car-wrapping-design/" target="_blank">
-                              <button class="nice-btn"><i></i>EIGENE FOLIE GESTALTEN...<i></i></button>
-                           </a>
+                          
+                              <button class="nice-btn" onclick="openContactModal()"><i></i>EIGENE FOLIE GESTALTEN...<i></i></button>
+                          
                         </span>
                      </div>
                   </div>
@@ -1573,6 +1575,67 @@
                </div>
             </div>
          </section>
+      </div>
+   </div>
+
+   <div id="contact-modal" class="overflow plenka-modal-protection">
+      <div class="close-background"></div>
+      <div class="modal">
+         <div class="title-modal skin-title-protection">Contact Form</div>
+         <div class="close-modal"></div>
+         <div class="modal-content-form">
+            <div role="form" class="wpcf7" id="wpcf7-f3638-o2" lang="ru-RU" dir="ltr">
+               <div class="screen-reader-response"></div>
+               <form action="" method="post" class="wpcf7-form" novalidate="novalidate">
+                  <div class="form-field-row">
+                     <div class="row-2-modal">
+                        <input type="text" name="your-name" value="" size="40"
+                           class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required input-form" id="name"
+                           aria-required="true" aria-invalid="false" placeholder="&nbsp;">
+                        <label for="name" class="label-form">Name</label>
+                     </div>
+                     <div class="row-2-modal">
+                        <input type="tel" name="tel-178" value="" size="40"
+                           class="wpcf7-form-control wpcf7-text wpcf7-tel wpcf7-validates-as-required wpcf7-validates-as-tel input-form"
+                           id="tel" aria-required="true" aria-invalid="false" placeholder="&nbsp;" maxlength="19">
+                        <label for="tel" class="label-form">
+                           Email
+                        </label>
+                     </div>
+                  </div>
+
+                  <div class="form-field-row">
+                     <div class="row-2-modal">
+                        <input type="text" name="your-name" value="" size="40"
+                           class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required input-form" id="name"
+                           aria-required="true" aria-invalid="false" placeholder="&nbsp;">
+                        <label for="name" class="label-form">Phone</label>
+                     </div>
+                     <div class="row-2-modal">
+                        <input type="tel" name="tel-178" value="" size="40"
+                           class="wpcf7-form-control wpcf7-text wpcf7-tel wpcf7-validates-as-required wpcf7-validates-as-tel input-form"
+                           id="tel" aria-required="true" aria-invalid="false" placeholder="&nbsp;" maxlength="19">
+                        <label for="tel" class="label-form">
+                           Address
+                        </label>
+                     </div>
+                  </div>
+                  
+                  <div class="textarea-box">
+                     <textarea name="textarea-330" cols="40" rows="10"
+                        class="wpcf7-form-control wpcf7-textarea input-form" id="textarea" aria-invalid="false"
+                        placeholder="&nbsp;"></textarea>
+                     <label for="textarea" class="label-form">
+                        Your question
+                     </label>
+                  </div>
+                  <p>
+                     <input type="submit" value="Send message" class="wpcf7-form-control wpcf7-submit">
+                  </p>
+                  <div class="wpcf7-response-output wpcf7-display-none"></div>
+               </form>
+            </div>
+         </div>
       </div>
    </div>
 
