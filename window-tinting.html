@@ -75,9 +75,9 @@
 			</ul>
 		</menu>
 
-        <video autoplay muted loop id="myVideo">
-            <source src="./assets/video/RocketGuard SelfHealing_2 (online-video-cutter.com)_2_2_2.mp4" type="video/mp4">
-        </video>
+		<video autoplay muted loop id="myVideo">
+			<source src="./assets/video/RocketGuard SelfHealing_2 (online-video-cutter.com)_2_2_2.mp4" type="video/mp4">
+		</video>
 
 		<header class="header">
 			<div class="gradient-header-main-bottom"></div>
@@ -88,13 +88,14 @@
 				</h1>
 			</div>
 		</header>
-		
+
 		<div class="background-website">
 			<section class="section-main-page-1">
 				<div class="wrapper">
 					<div class="box-left-text-right-image clearfix">
 						<div class="row box-left-text-right-image-mobile">
-							<img class="box-left-text-right-image__img lazy" src="images/car5.png" />
+							<img class="box-left-text-right-image__img lazy"
+								src="./assets/feature-images/Scheibentönung-BIld-1.png" />
 						</div>
 						<div class="row">
 							<div>
@@ -117,7 +118,8 @@
 							</div>
 						</div>
 						<div class="row box-left-text-right-image-pc">
-							<img class="box-left-text-right-image__img" src="images/car5.png" alt="" />
+							<img class="box-left-text-right-image__img"
+								src="./assets/feature-images/Scheibentönung-BIld-1.png" alt="" />
 						</div>
 						<div></div>
 					</div>
@@ -162,9 +164,9 @@
 										</p>
 									</div>
 								</div>
-								<a href="./contact.html" class="blue-btn-form range-modal-form-btn">
+								<button onclick="openContactModal()" class="blue-btn-form range-modal-form-btn">
 									Termin zur Beratung
-								</a>
+								</button>
 							</div>
 						</div>
 					</div>
@@ -199,7 +201,8 @@
 				<div class="wrapper">
 					<div class="box-left-text-right-image clearfix">
 						<div class="row box-left-text-right-image-mobile">
-							<img class="box-left-text-right-image__img lazy" src="images/car2.png" alt="" />
+							<img class="box-left-text-right-image__img lazy"
+								src="./assets/feature-images/Scheibentönung-BIld--3.png" alt="" />
 						</div>
 						<div class="row">
 							<div>
@@ -226,7 +229,8 @@
 							</div>
 						</div>
 						<div class="row box-left-text-right-image-pc">
-							<img class="box-left-text-right-image__img lazy loaded" src="images/car2.png" alt="" />
+							<img class="box-left-text-right-image__img lazy loaded"
+								src="./assets/feature-images/Scheibentönung-BIld--3.png" alt="" />
 						</div>
 					</div>
 				</div>
@@ -276,7 +280,8 @@
 							</div>
 						</div>
 						<div class="row-form-box pc-box-footer-form">
-							<img class="box-left-text-right-image__img lazy" src="images/car1.png" alt="" />
+							<img class="box-left-text-right-image__img lazy"
+								src="./assets/feature-images/Scheibentönung-BIld-4.png" alt="" />
 						</div>
 					</div>
 				</div>
@@ -318,6 +323,69 @@
 					</div>
 				</div>
 			</section>
+		</div>
+	</div>
+
+	<div id="contact-modal" class="overflow plenka-modal-protection">
+		<div class="close-background"></div>
+		<div class="modal">
+			<div class="title-modal skin-title-protection">Kontakt Formular</div>
+			<div class="close-modal"></div>
+			<div class="modal-content-form">
+				<div role="form" class="wpcf7" id="wpcf7-f3638-o2" lang="ru-RU" dir="ltr">
+					<div class="screen-reader-response"></div>
+					<form action="" method="post" class="wpcf7-form" novalidate="novalidate">
+						<div class="form-field-row">
+							<div class="row-2-modal">
+								<input type="text" name="your-name" value="" size="40"
+									class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required input-form"
+									id="name" aria-required="true" aria-invalid="false" placeholder="&nbsp;">
+								<label for="name" class="label-form">Name</label>
+							</div>
+							<div class="row-2-modal">
+								<input type="tel" name="tel-178" value="" size="40"
+									class="wpcf7-form-control wpcf7-text wpcf7-tel wpcf7-validates-as-required wpcf7-validates-as-tel input-form"
+									id="tel" aria-required="true" aria-invalid="false" placeholder="&nbsp;"
+									maxlength="19">
+								<label for="tel" class="label-form">
+									eMail
+								</label>
+							</div>
+						</div>
+
+						<div class="form-field-row">
+							<div class="row-2-modal">
+								<input type="text" name="your-name" value="" size="40"
+									class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required input-form"
+									id="name" aria-required="true" aria-invalid="false" placeholder="&nbsp;">
+								<label for="name" class="label-form">Telefon</label>
+							</div>
+							<div class="row-2-modal">
+								<input type="tel" name="tel-178" value="" size="40"
+									class="wpcf7-form-control wpcf7-text wpcf7-tel wpcf7-validates-as-required wpcf7-validates-as-tel input-form"
+									id="tel" aria-required="true" aria-invalid="false" placeholder="&nbsp;"
+									maxlength="19">
+								<label for="tel" class="label-form">
+									Adresse
+								</label>
+							</div>
+						</div>
+
+						<div class="textarea-box">
+							<textarea name="textarea-330" cols="40" rows="10"
+								class="wpcf7-form-control wpcf7-textarea input-form" id="textarea" aria-invalid="false"
+								placeholder="&nbsp;"></textarea>
+							<label for="textarea" class="label-form">
+								Beschreibung
+							</label>
+						</div>
+						<p>
+							<input type="submit" value="Nachricht absenden" class="wpcf7-form-control wpcf7-submit">
+						</p>
+						<div class="wpcf7-response-output wpcf7-display-none"></div>
+					</form>
+				</div>
+			</div>
 		</div>
 	</div>
 
