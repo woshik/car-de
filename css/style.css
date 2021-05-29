@@ -10453,3 +10453,7 @@ button.swiper-pagination-bullet {
   justify-content: center;
   align-items: center;
 }
+
+.padding-bottom-0 {
+  padding-bottom: 0;
+}
